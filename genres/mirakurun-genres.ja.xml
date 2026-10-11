@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Mirakurun の /api/iptv/xmltv（ARIB ジャンル）を Kodi の DVB ジャンル ID に変換する
+  マッピングファイルです。
+  userdata/addon_data/pvr.iptvsimple/genres/genreTextMappings/ にコピーし、
+  IPTV Simple の設定「EPG」タブ >「ジャンル」の「ジャンルのパス」に指定してください。
+  「ジャンルのマッピング時に、XMLTVのジャンル テキストを使用する」を有効にすると、
+  番組表は色分けされ、ジャンル名は日本語のまま表示されます。
+
+  「延長の可能性あり」などの番組付属情報は、番組本来のジャンルが使われるよう
+  意図的にマッピングしていません。
+
+  tools/gen_genres.py で生成しています。変更はこのファイルではなくスクリプト側で行ってください。
+-->
+<genres>
+  <name>Mirakurun（ARIB）ジャンル</name>
+  <!-- ニュース／報道 -->
+  <genre genreId="0x20">ニュース／報道 - 定時・総合</genre>  <!-- ニュース／時事 -->
+  <genre genreId="0x21">ニュース／報道 - 天気</genre>  <!-- ニュース／天気予報 -->
+  <genre genreId="0x22">ニュース／報道 - 特集・ドキュメント</genre>  <!-- ニュースマガジン -->
+  <genre genreId="0x80">ニュース／報道 - 政治・国会</genre>  <!-- 社会／政治／経済 -->
+  <genre genreId="0x82">ニュース／報道 - 経済・市況</genre>  <!-- 経済／社会 -->
+  <genre genreId="0x20">ニュース／報道 - 海外・国際</genre>  <!-- ニュース／時事 -->
+  <genre genreId="0x22">ニュース／報道 - 解説</genre>  <!-- ニュースマガジン -->
+  <genre genreId="0x24">ニュース／報道 - 討論・会談</genre>  <!-- 討論／インタビュー -->
+  <genre genreId="0x20">ニュース／報道 - 報道特番</genre>  <!-- ニュース／時事 -->
+  <genre genreId="0x20">ニュース／報道 - ローカル・地域</genre>  <!-- ニュース／時事 -->
+  <genre genreId="0x21">ニュース／報道 - 交通</genre>  <!-- ニュース／天気予報 -->
+  <genre genreId="0x20">ニュース／報道 - その他</genre>  <!-- ニュース／時事 -->
+  <genre genreId="0x20">ニュース／報道 - undefined</genre>  <!-- ニュース／時事 -->
+  <!-- スポーツ -->
+  <genre genreId="0x42">スポーツ - スポーツニュース</genre>  <!-- スポーツマガジン -->
+  <genre genreId="0x45">スポーツ - 野球</genre>  <!-- 団体競技 -->
+  <genre genreId="0x43">スポーツ - サッカー</genre>  <!-- サッカー -->
+  <genre genreId="0x40">スポーツ - ゴルフ</genre>  <!-- スポーツ -->
+  <genre genreId="0x45">スポーツ - その他の球技</genre>  <!-- 団体競技 -->
+  <genre genreId="0x4B">スポーツ - 相撲・格闘技</genre>  <!-- 格闘技 -->
+  <genre genreId="0x41">スポーツ - オリンピック・国際大会</genre>  <!-- 特別イベント（五輪・W杯等） -->
+  <genre genreId="0x46">スポーツ - マラソン・陸上・水泳</genre>  <!-- 陸上競技 -->
+  <genre genreId="0x47">スポーツ - モータースポーツ</genre>  <!-- モータースポーツ -->
+  <genre genreId="0x48">スポーツ - マリン・ウィンタースポーツ</genre>  <!-- ウォータースポーツ -->
+  <genre genreId="0x4A">スポーツ - 競馬・公営競技</genre>  <!-- 馬術 -->
+  <genre genreId="0x40">スポーツ - その他</genre>  <!-- スポーツ -->
+  <genre genreId="0x40">スポーツ - undefined</genre>  <!-- スポーツ -->
+  <!-- 情報／ワイドショー -->
+  <genre genreId="0x33">情報／ワイドショー - 芸能・ワイドショー</genre>  <!-- トークショー -->
+  <genre genreId="0x7B">情報／ワイドショー - ファッション</genre>  <!-- ファッション -->
+  <genre genreId="0xA0">情報／ワイドショー - 暮らし・住まい</genre>  <!-- レジャー／趣味 -->
+  <genre genreId="0xA4">情報／ワイドショー - 健康・医療</genre>  <!-- フィットネス／健康 -->
+  <genre genreId="0xA6">情報／ワイドショー - ショッピング・通販</genre>  <!-- 広告／ショッピング -->
+  <genre genreId="0xA5">情報／ワイドショー - グルメ・料理</genre>  <!-- 料理 -->
+  <genre genreId="0xA0">情報／ワイドショー - イベント</genre>  <!-- レジャー／趣味 -->
+  <genre genreId="0x78">情報／ワイドショー - 番組紹介・お知らせ</genre>  <!-- 放送／報道機関 -->
+  <genre genreId="0xA0">情報／ワイドショー - その他</genre>  <!-- レジャー／趣味 -->
+  <genre genreId="0xA0">情報／ワイドショー - undefined</genre>  <!-- レジャー／趣味 -->
+  <!-- ドラマ -->
+  <genre genreId="0x10">ドラマ - 国内ドラマ</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x10">ドラマ - 海外ドラマ</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x17">ドラマ - 時代劇</genre>  <!-- シリアス／古典／歴史 -->
+  <genre genreId="0x10">ドラマ - その他</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x10">ドラマ - undefined</genre>  <!-- 映画／ドラマ -->
+  <!-- 音楽 -->
+  <genre genreId="0x61">音楽 - 国内ロック・ポップス</genre>  <!-- ロック／ポップス -->
+  <genre genreId="0x61">音楽 - 海外ロック・ポップス</genre>  <!-- ロック／ポップス -->
+  <genre genreId="0x62">音楽 - クラシック・オペラ</genre>  <!-- クラシック音楽 -->
+  <genre genreId="0x64">音楽 - ジャズ・フュージョン</genre>  <!-- ジャズ -->
+  <genre genreId="0x63">音楽 - 歌謡曲・演歌</genre>  <!-- 民族／伝統音楽 -->
+  <genre genreId="0x60">音楽 - ライブ・コンサート</genre>  <!-- 音楽／バレエ／ダンス -->
+  <genre genreId="0x61">音楽 - ランキング・リクエスト</genre>  <!-- ロック／ポップス -->
+  <genre genreId="0x60">音楽 - カラオケ・のど自慢</genre>  <!-- 音楽／バレエ／ダンス -->
+  <genre genreId="0x63">音楽 - 民謡・邦楽</genre>  <!-- 民族／伝統音楽 -->
+  <genre genreId="0x50">音楽 - 童謡・キッズ</genre>  <!-- 子供／青少年向け -->
+  <genre genreId="0x63">音楽 - 民族音楽・ワールドミュージック</genre>  <!-- 民族／伝統音楽 -->
+  <genre genreId="0x60">音楽 - その他</genre>  <!-- 音楽／バレエ／ダンス -->
+  <genre genreId="0x60">音楽 - undefined</genre>  <!-- 音楽／バレエ／ダンス -->
+  <!-- バラエティ -->
+  <genre genreId="0x31">バラエティ - クイズ</genre>  <!-- ゲームショー／クイズ -->
+  <genre genreId="0x31">バラエティ - ゲーム</genre>  <!-- ゲームショー／クイズ -->
+  <genre genreId="0x33">バラエティ - トークバラエティ</genre>  <!-- トークショー -->
+  <genre genreId="0x32">バラエティ - お笑い・コメディ</genre>  <!-- バラエティショー -->
+  <genre genreId="0x32">バラエティ - 音楽バラエティ</genre>  <!-- バラエティショー -->
+  <genre genreId="0x32">バラエティ - 旅バラエティ</genre>  <!-- バラエティショー -->
+  <genre genreId="0x32">バラエティ - 料理バラエティ</genre>  <!-- バラエティショー -->
+  <genre genreId="0x32">バラエティ - その他</genre>  <!-- バラエティショー -->
+  <genre genreId="0x30">バラエティ - undefined</genre>  <!-- ショー／ゲームショー -->
+  <!-- 映画 -->
+  <genre genreId="0x10">映画 - 洋画</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x10">映画 - 邦画</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x10">映画 - アニメ</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x10">映画 - その他</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x10">映画 - undefined</genre>  <!-- 映画／ドラマ -->
+  <!-- アニメ／特撮 -->
+  <genre genreId="0x55">アニメ／特撮 - 国内アニメ</genre>  <!-- アニメ／人形劇 -->
+  <genre genreId="0x55">アニメ／特撮 - 海外アニメ</genre>  <!-- アニメ／人形劇 -->
+  <genre genreId="0x50">アニメ／特撮 - 特撮</genre>  <!-- 子供／青少年向け -->
+  <genre genreId="0x55">アニメ／特撮 - その他</genre>  <!-- アニメ／人形劇 -->
+  <genre genreId="0x55">アニメ／特撮 - undefined</genre>  <!-- アニメ／人形劇 -->
+  <!-- ドキュメンタリー／教養 -->
+  <genre genreId="0x81">ドキュメンタリー／教養 - 社会・時事</genre>  <!-- レポート／ドキュメンタリー -->
+  <genre genreId="0x94">ドキュメンタリー／教養 - 歴史・紀行</genre>  <!-- 海外／紀行 -->
+  <genre genreId="0x91">ドキュメンタリー／教養 - 自然・動物・環境</genre>  <!-- 自然／動物／環境 -->
+  <genre genreId="0x92">ドキュメンタリー／教養 - 宇宙・科学・医学</genre>  <!-- 技術／自然科学 -->
+  <genre genreId="0x74">ドキュメンタリー／教養 - カルチャー・伝統文化</genre>  <!-- 大衆文化／伝統芸能 -->
+  <genre genreId="0x75">ドキュメンタリー／教養 - 文学・文芸</genre>  <!-- 文学 -->
+  <genre genreId="0x42">ドキュメンタリー／教養 - スポーツ</genre>  <!-- スポーツマガジン -->
+  <genre genreId="0x90">ドキュメンタリー／教養 - ドキュメンタリー全般</genre>  <!-- 教育／科学／教養 -->
+  <genre genreId="0x24">ドキュメンタリー／教養 - インタビュー・討論</genre>  <!-- 討論／インタビュー -->
+  <genre genreId="0x90">ドキュメンタリー／教養 - その他</genre>  <!-- 教育／科学／教養 -->
+  <genre genreId="0x90">ドキュメンタリー／教養 - undefined</genre>  <!-- 教育／科学／教養 -->
+  <!-- 劇場／公演 -->
+  <genre genreId="0x71">劇場／公演 - 現代劇・新劇</genre>  <!-- 舞台芸術 -->
+  <genre genreId="0x65">劇場／公演 - ミュージカル</genre>  <!-- ミュージカル／オペラ -->
+  <genre genreId="0x66">劇場／公演 - ダンス・バレエ</genre>  <!-- バレエ -->
+  <genre genreId="0x74">劇場／公演 - 落語・演芸</genre>  <!-- 大衆文化／伝統芸能 -->
+  <genre genreId="0x74">劇場／公演 - 歌舞伎・古典</genre>  <!-- 大衆文化／伝統芸能 -->
+  <genre genreId="0x71">劇場／公演 - その他</genre>  <!-- 舞台芸術 -->
+  <genre genreId="0x70">劇場／公演 - undefined</genre>  <!-- 芸術／文化 -->
+  <!-- 趣味／教育 -->
+  <genre genreId="0xA1">趣味／教育 - 旅・釣り・アウトドア</genre>  <!-- 観光／旅行 -->
+  <genre genreId="0xA7">趣味／教育 - 園芸・ペット・手芸</genre>  <!-- 園芸 -->
+  <genre genreId="0xA2">趣味／教育 - 音楽・美術・工芸</genre>  <!-- 手工芸 -->
+  <genre genreId="0xA0">趣味／教育 - 囲碁・将棋</genre>  <!-- レジャー／趣味 -->
+  <genre genreId="0xA0">趣味／教育 - 麻雀・パチンコ</genre>  <!-- レジャー／趣味 -->
+  <genre genreId="0xA3">趣味／教育 - 車・オートバイ</genre>  <!-- 自動車 -->
+  <genre genreId="0xA0">趣味／教育 - コンピュータ・ＴＶゲーム</genre>  <!-- レジャー／趣味 -->
+  <genre genreId="0x97">趣味／教育 - 会話・語学</genre>  <!-- 語学 -->
+  <genre genreId="0x54">趣味／教育 - 幼児・小学生</genre>  <!-- 学習／教育 -->
+  <genre genreId="0x54">趣味／教育 - 中学生・高校生</genre>  <!-- 学習／教育 -->
+  <genre genreId="0x96">趣味／教育 - 大学生・受験</genre>  <!-- 生涯教育 -->
+  <genre genreId="0x96">趣味／教育 - 生涯教育・資格</genre>  <!-- 生涯教育 -->
+  <genre genreId="0x90">趣味／教育 - 教育問題</genre>  <!-- 教育／科学／教養 -->
+  <genre genreId="0xA0">趣味／教育 - その他</genre>  <!-- レジャー／趣味 -->
+  <genre genreId="0xA0">趣味／教育 - undefined</genre>  <!-- レジャー／趣味 -->
+  <!-- 福祉 -->
+  <genre genreId="0x80">福祉 - 高齢者</genre>  <!-- 社会／政治／経済 -->
+  <genre genreId="0x80">福祉 - 障害者</genre>  <!-- 社会／政治／経済 -->
+  <genre genreId="0x82">福祉 - 社会福祉</genre>  <!-- 経済／社会 -->
+  <genre genreId="0x80">福祉 - ボランティア</genre>  <!-- 社会／政治／経済 -->
+  <genre genreId="0x80">福祉 - 手話</genre>  <!-- 社会／政治／経済 -->
+  <genre genreId="0x80">福祉 - 文字（字幕）</genre>  <!-- 社会／政治／経済 -->
+  <genre genreId="0x80">福祉 - 音声解説</genre>  <!-- 社会／政治／経済 -->
+  <genre genreId="0x80">福祉 - その他</genre>  <!-- 社会／政治／経済 -->
+  <genre genreId="0x80">福祉 - undefined</genre>  <!-- 社会／政治／経済 -->
+  <!-- 拡張: 広帯域CS 拡張ジャンル -->
+  <genre genreId="0x44">スポーツ - テニス</genre>  <!-- テニス／スカッシュ -->
+  <genre genreId="0x45">スポーツ - バスケットボール</genre>  <!-- 団体競技 -->
+  <genre genreId="0x45">スポーツ - ラグビー</genre>  <!-- 団体競技 -->
+  <genre genreId="0x45">スポーツ - アメリカンフットボール</genre>  <!-- 団体競技 -->
+  <genre genreId="0x4B">スポーツ - ボクシング</genre>  <!-- 格闘技 -->
+  <genre genreId="0x4B">スポーツ - プロレス</genre>  <!-- 格闘技 -->
+  <genre genreId="0x40">スポーツ - その他</genre>  <!-- スポーツ -->
+  <genre genreId="0x12">洋画 - アクション</genre>  <!-- 冒険／西部劇／戦争 -->
+  <genre genreId="0x13">洋画 - ＳＦ／ファンタジー</genre>  <!-- SF／ファンタジー／ホラー -->
+  <genre genreId="0x14">洋画 - コメディー</genre>  <!-- コメディ -->
+  <genre genreId="0x11">洋画 - サスペンス／ミステリー</genre>  <!-- 探偵／スリラー -->
+  <genre genreId="0x16">洋画 - 恋愛／ロマンス</genre>  <!-- ロマンス -->
+  <genre genreId="0x13">洋画 - ホラー／スリラー</genre>  <!-- SF／ファンタジー／ホラー -->
+  <genre genreId="0x12">洋画 - ウエスタン</genre>  <!-- 冒険／西部劇／戦争 -->
+  <genre genreId="0x17">洋画 - ドラマ／社会派ドラマ</genre>  <!-- シリアス／古典／歴史 -->
+  <genre genreId="0x10">洋画 - アニメーション</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x10">洋画 - ドキュメンタリー</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x12">洋画 - アドベンチャー／冒険</genre>  <!-- 冒険／西部劇／戦争 -->
+  <genre genreId="0x10">洋画 - ミュージカル／音楽映画</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x15">洋画 - ホームドラマ</genre>  <!-- ホームドラマ／メロドラマ -->
+  <genre genreId="0x10">洋画 - その他</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x12">邦画 - アクション</genre>  <!-- 冒険／西部劇／戦争 -->
+  <genre genreId="0x13">邦画 - ＳＦ／ファンタジー</genre>  <!-- SF／ファンタジー／ホラー -->
+  <genre genreId="0x14">邦画 - お笑い／コメディー</genre>  <!-- コメディ -->
+  <genre genreId="0x11">邦画 - サスペンス／ミステリー</genre>  <!-- 探偵／スリラー -->
+  <genre genreId="0x16">邦画 - 恋愛／ロマンス</genre>  <!-- ロマンス -->
+  <genre genreId="0x13">邦画 - ホラー／スリラー</genre>  <!-- SF／ファンタジー／ホラー -->
+  <genre genreId="0x10">邦画 - 青春／学園／アイドル</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x17">邦画 - 任侠／時代劇</genre>  <!-- シリアス／古典／歴史 -->
+  <genre genreId="0x10">邦画 - アニメーション</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x10">邦画 - ドキュメンタリー</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x12">邦画 - アドベンチャー／冒険</genre>  <!-- 冒険／西部劇／戦争 -->
+  <genre genreId="0x10">邦画 - ミュージカル／音楽映画</genre>  <!-- 映画／ドラマ -->
+  <genre genreId="0x15">邦画 - ホームドラマ</genre>  <!-- ホームドラマ／メロドラマ -->
+  <genre genreId="0x10">邦画 - その他</genre>  <!-- 映画／ドラマ -->
+</genres>
